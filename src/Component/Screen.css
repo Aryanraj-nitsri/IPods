@@ -1,0 +1,109 @@
+#screen_container{
+    width:30rem;
+    height: 30rem;
+    border: 3px solid black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCXkr2oo8dpfSkEFrBIvRORkdNiUy6CRPHEw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.2rem 1.2rem;
+    margin-top: 3rem;
+}
+#screen_menu>h1{
+    font-size: 2rem;
+}
+#screen_menu{
+    padding: 1.5rem;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    background-color: white;
+}
+#screen_list>li{
+    list-style: none;
+    margin-top: 1.4rem;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#screen_list>li>span{
+    color: white;
+}
+#screen_list{
+    position: relative;
+}
+
+.active{
+    background-color: rgb(91, 91, 166);
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+#cover{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1.2rem 1.2rem;
+
+}
+#games{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://png.pngtree.com/element_our/sm/20180517/sm_6e976cbee56d893b00916c135a28b738.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1.2rem 1.2rem;
+
+    
+}
+#settings{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://st4.depositphotos.com/18657574/22315/v/950/depositphotos_223150038-stock-illustration-settings-icon-trendy-design-style.jpg?forcejpeg=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 1.2rem 1.2rem;
+
+}
+#songs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    align-items: flex-end;
+    border-radius: 1.2rem 1.2rem;
+
+
+}
+#controls{
+    height: 5rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin-bottom: -0.1rem;
+    margin-left: -0.1rem;
+    border-bottom-left-radius: 1rem;
+    /* border-bottom-right-radius: rem; */
+
+}
+
+#controls input{
+    height: 0.1rem;
+    /* width: 65%; */
+}
+#music{
+    width: 100%;
+    height: 100%;
+}
